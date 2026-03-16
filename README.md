@@ -33,7 +33,7 @@ Required libraries used by this project:
 ### 2) Configure with Visual Studio 2019 + v141 toolset
 
 ```powershell
-cmake -S . -B build_vs2019_v141 ^
+cmake -S build -B build_vs2019_v141 ^
   -G "Visual Studio 16 2019" -A x64 -T v141 ^
   -DCMAKE_TOOLCHAIN_FILE=<path-to-vcpkg>/scripts/buildsystems/vcpkg.cmake
 ```
